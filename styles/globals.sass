@@ -1,0 +1,133 @@
+@import ./_variables
+
+body
+  margin: 0
+  padding: 0
+
+// h1 h2 h3 ...
+.h1-title, .h2-title, .h3-title, .h4-title
+  font-family: $proza-libre
+
+.p-intro, .link-title,
+.current_price
+  font-family: $open-sans
+  font-size: 16px
+
+.previous_price
+  font-family: $open-sans
+
+// NAVBAR GLOBAL STYLES
+.navbar-brand
+  font-family: $proza-libre
+
+.nav-link
+  font-family: $open-sans
+  font-weight: 600
+
+// CARDS
+.card-title
+  font-family: $proza-libre
+  font-weight: 600
+  color: #000
+
+.card-description
+  font-family: $open-sans
+  font-size: 15px
+
+// FOOTER GLOBAL STYLES
+.footer-h4
+  font-family: $proza-libre
+
+.external-link
+  font-family: $open-sans
+
+.pay-platform
+  font-family: $open-sans
+
+.card-image-300h
+  height: 300px ,
+  width: 100% ,
+  object-fit: contain,
+
+  // OTHERS
+.vertical-line
+  width: 100%
+  height: 100%
+  border: none
+  border-left: 5px solid #ff9d00
+  padding-left: 10px
+
+// nprogress library STYLES
+/* Make clicks pass-through */
+/* Make clicks pass-through */
+#nprogress
+  pointer-events: none
+
+#nprogress .bar
+  background: #29d
+  position: fixed
+  z-index: 1031
+  top: 0
+  left: 0
+  width: 100%
+  height: 2px
+
+/* Fancy blur effect */
+#nprogress .peg
+  display: block
+  position: absolute
+  right: 0px
+  width: 100px
+  height: 100%
+  box-shadow: 0 0 10px #29d, 0 0 5px #29d
+  opacity: 1.0
+  -webkit-transform: rotate(3deg) translate(0px, -4px)
+  -ms-transform: rotate(3deg) translate(0px, -4px)
+  transform: rotate(3deg) translate(0px, -4px)
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner
+  display: block
+  position: fixed
+  z-index: 1031
+  top: 15px
+  right: 15px
+
+#nprogress .spinner-icon
+  width: 18px
+  height: 18px
+  box-sizing: border-box
+  border: solid 2px transparent
+  border-top-color: #29d
+  border-left-color: #29d
+  border-radius: 50%
+  -webkit-animation: nprogress-spinner 400ms linear infinite
+  animation: nprogress-spinner 400ms linear infinite
+
+.nprogress-custom-parent
+  overflow: hidden
+  position: relative
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar
+  position: absolute
+
+@-webkit-keyframes nprogress-spinner
+  0%
+  -webkit-transform: rotate(0deg)
+
+  100%
+  -webkit-transform: rotate(360deg)
+
+@keyframes nprogress-spinner
+  0%
+    transform: rotate(0deg)
+
+  100%
+    transform: rotate(360deg)
+
+@media (max-width: 575.98px)
+  .p-intro
+    font-size: 18px
+  .card-title
+    font-size: 17px
