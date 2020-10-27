@@ -17,6 +17,11 @@ class MyDocument extends Document {
             integrity='sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2'
             crossOrigin='anonymous'
           />
+          {/* GOOGLE ANALYTICS */}
+          <meta
+            name='google-site-verification'
+            content='7yawzIJsXf4KhQoLEZIycYNRJx4frii8CE5Ts8U7Cus'
+          />
         </Head>
         <body>
           <Main />
