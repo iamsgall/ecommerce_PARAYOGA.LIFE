@@ -1,4 +1,4 @@
-Sitemap: http://parayoga.life:3000/sitemap.xml
+Sitemap: https://parayoga.life/sitemap.xml
 
 User-agent: *
 Allow: /*
