@@ -1,4 +1,4 @@
-Sitemap: http://localhost:3000/sitemap.xml
+Sitemap: http://parayoga.life:3000/sitemap.xml
 
 User-agent: *
 Allow: /*
