@@ -1,0 +1,9 @@
+Sitemap: http://localhost:3000/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
+Disallow: /aviso-legal.jsx
+Disallow: /politica-de-cookies.jsx
+Disallow: /politica-de-privacidad.jsx

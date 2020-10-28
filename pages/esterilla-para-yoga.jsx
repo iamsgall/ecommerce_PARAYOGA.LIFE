@@ -5,7 +5,7 @@ import EsterillasProducts from '../components/pageProducts/EsterillasProducts.js
 
 export default function EsterillaParaYoga() {
   return (
-    <Layout title='Esterillas para yoga | PARAYOGA.LIFE'>
+    <Layout title='Esterillas para Yoga | PARAYOGA.LIFE'>
       <div className='container'>
         <header className='d-flex justify-content-center mt-4 mb-3'>
           <h1 className='h1-title'>Esterillas para yoga</h1>

@@ -5,7 +5,9 @@ export default function Navbar() {
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container'>
         <Link href='/'>
-          <a className='navbar-brand'>PARAYOGA</a>
+          <a className='navbar-brand' rel='dofollow'>
+            PARAYOGA
+          </a>
         </Link>
         <button
           className='navbar-toggler'
@@ -21,20 +23,10 @@ export default function Navbar() {
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <div className='navbar-nav ml-auto'>
             <Link href='/blog'>
-              <a className='nav-link'>
+              <a className='nav-link' rel='dofollow'>
                 Blog <span className='sr-only'>(current)</span>
               </a>
             </Link>
-            {/* <Link href='#'>
-              <a className='nav-link'>
-                link 2 <span className='sr-only'></span>
-              </a>
-            </Link>
-            <Link href='#'>
-              <a className='nav-link'>
-                link 3 <span className='sr-only'></span>
-              </a>
-            </Link> */}
           </div>
         </div>
       </div>

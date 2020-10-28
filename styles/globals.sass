@@ -5,8 +5,12 @@ body
   padding: 0
 
 // h1 h2 h3 ...
-.h1-title, .h2-title, .h3-title, .h4-title
+.h2-title, .h3-title, .h4-title
   font-family: $proza-libre
+
+.h1-title
+  font-family: $proza-libre
+  font-weight: 600
 
 .p-intro, .link-title,
 .current_price
@@ -27,8 +31,10 @@ body
 // CARDS
 .card-title
   font-family: $proza-libre
-  font-weight: 600
+  font-weight: 700
   color: #000
+  &:hover
+    text-decoration: none
 
 .card-description
   font-family: $open-sans
@@ -48,6 +54,8 @@ body
   height: 300px ,
   width: 100% ,
   object-fit: contain,
+  &:hover
+    cursor: pointer
 
   // OTHERS
 .vertical-line
@@ -112,12 +120,11 @@ body
 .nprogress-custom-parent #nprogress .bar
   position: absolute
 
-@-webkit-keyframes nprogress-spinner
-  0%
-  -webkit-transform: rotate(0deg)
-
-  100%
-  -webkit-transform: rotate(360deg)
+// @-webkit-keyframes nprogress-spinner
+//   0%
+//   -webkit-transform: rotate(0deg)
+//   100%
+//   -webkit-transform: rotate(360deg)
 
 @keyframes nprogress-spinner
   0%

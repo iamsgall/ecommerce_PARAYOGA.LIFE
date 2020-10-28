@@ -8,28 +8,28 @@ export default function Footer() {
       <div className='container'>
         <div className='row'>
           <div className='col-12 d-flex justify-content-center my-2'>
-            <a href='#'>
+            <a href='#' rel='nofollow'>
               <FontAwesomeIcon
                 icon={['fab', 'facebook']}
                 className='mx-2'
                 style={{fontSize: 22, color: '#3b5998'}}
               />
             </a>
-            <a href='#'>
+            <a href='#' rel='nofollow'>
               <FontAwesomeIcon
                 icon={['fab', 'twitter']}
                 className='mx-2'
                 style={{fontSize: 22, color: '#00acee'}}
               />
             </a>
-            <a href='#'>
+            <a href='#' rel='nofollow'>
               <FontAwesomeIcon
                 icon={['fab', 'instagram']}
                 className='mx-2'
                 style={{fontSize: 22, color: '#3f729b'}}
               />
             </a>
-            <a href='#'>
+            <a href='#' rel='nofollow'>
               <FontAwesomeIcon
                 icon={['fab', 'pinterest']}
                 className='mx-2'
@@ -100,34 +100,25 @@ export default function Footer() {
             </h4>
             <div className='mb-2'>
               <li style={{listStyle: 'none'}}>
-                <a
-                  className='external-link'
-                  rel='nofollow'
-                  href='#'
-                  style={{fontSize: 12}}
-                >
-                  AVISO LEGAL
-                </a>
+                <Link href='aviso-legal'>
+                  <a className='external-link' style={{fontSize: 12}}>
+                    AVISO LEGAL
+                  </a>
+                </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <a
-                  className='external-link'
-                  rel='nofollow'
-                  href='#'
-                  style={{fontSize: 12}}
-                >
-                  POLÍTICA DE COOKIES
-                </a>
+                <Link href='politica-de-cookies'>
+                  <a className='external-link' style={{fontSize: 12}}>
+                    POLÍTICA DE COOKIES
+                  </a>
+                </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <a
-                  className='external-link'
-                  rel='nofollow'
-                  href='#'
-                  style={{fontSize: 12}}
-                >
-                  POLÍTICA DE PRIVACIDAD
-                </a>
+                <Link href='politica-de-privacidad'>
+                  <a className='external-link' style={{fontSize: 12}}>
+                    POLÍTICA DE PRIVACIDAD
+                  </a>
+                </Link>
               </li>
             </div>
           </div>
@@ -148,21 +139,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      {/* <section className='container'>
-        <Link href='#'>
-          <a className='d-block py-1'>Aviso Legal</a>
-        </Link>
-        <Link href='#'>
-          <a className='d-block py-1'>Política de Privacidad</a>
-        </Link>
-        <Link href='#'>
-          <a className='d-block py-1'>Política de Cookies</a>
-        </Link>
-        <div className='brand mt-4'>
-          <p>PARAYOGA</p>
-        </div>
-      </section> */}
     </footer>
   );
 }
