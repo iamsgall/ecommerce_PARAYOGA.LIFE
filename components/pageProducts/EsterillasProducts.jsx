@@ -7,6 +7,7 @@ export default function EsterillasProducts({
   title,
   previous_price,
   current_price,
+  url,
 }) {
   return (
     <>
@@ -45,18 +46,18 @@ export default function EsterillasProducts({
               </p>
             </div>
           )}
-          <a href='#amazon' rel='nofollow'>
+          <a href={`${url}`} target='_blank' rel='nofollow'>
             <img
-              src={`images/${image}.jpg`}
+              src={`${image}`}
               className='card-img-top pt-2 px-2 card-image-300h'
-              alt='...'
+              alt={title}
             />
           </a>
           <span
             className='text-center mt-3'
             style={{fontSize: 14, color: '#17a2b8'}}
           >
-            <a href='#amazon' rel='nofollow'>
+            <a href={`${url}`} target='_blank' rel='nofollow'>
               <FontAwesomeIcon
                 icon='images'
                 className='mr-1'
@@ -67,7 +68,8 @@ export default function EsterillasProducts({
           </span>
           <hr />
           <a
-            href='#amazon'
+            href={`${url}`}
+            target='_blank'
             rel='nofollow'
             className='link-title'
             style={{textDecoration: 'none', color: '#212529'}}
