@@ -20,8 +20,8 @@ export default function Esterilla() {
             </a>
           </Link>
           <p className='card-text card-description'>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Comodidad, Suavidad, Adhesion y Elasticidad. Perfecta para
+            Ejercitarse.
           </p>
         </div>
       </div>
