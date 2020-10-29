@@ -5,7 +5,10 @@ import EsterillasProducts from '../components/pageProducts/EsterillasProducts.js
 
 export default function EsterillaParaYoga() {
   return (
-    <Layout title='Esterillas para Yoga | PARAYOGA.LIFE'>
+    <Layout
+      title='Esterillas para Yoga | PARAYOGA.LIFE'
+      description='Principalmente necesitas una esterilla o colchoneta, básica para cualquier posición y sin la cual podría ser muy doloroso hacer las posiciones. Aquí te ayudaremos a que puedas conseguir la mejor alfombrilla.'
+    >
       <div className='container'>
         <header className='d-flex justify-content-center mt-4 mb-3'>
           <h1 className='h1-title'>Esterillas para yoga</h1>

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout
       title='Tienda online de artículos para yoga | PARAYOGA.LIFE'
-      description='Meta description content goes here.'
+      description='Tienda online de artículos y regalos de yoga.'
     >
       <div className='container'>
         <h1 className='text-center mt-4 mb-3 h1-title'>
