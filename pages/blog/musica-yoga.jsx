@@ -35,8 +35,8 @@ export default function musicaYoga() {
         <div className='d-flex justify-content-center'>
           <img
             className='img-fluid img-thumbnail shadow-sm'
-            src='/images/People doing leisure activities on the balconies during Coronavirus-pana (1).svg'
-            alt='People doing leisure activities on the balconies during Coronavirus-pana'
+            src='https://res.cloudinary.com/ico4etech/image/upload/v1604159708/PARAYOGA.LIFE/SVGs/People_doing_leisure_activities_on_the_balconies_during_Coronavirus-pana_1_ps1ole.svg'
+            alt='Personas haciendo actividades de ocio en los balcones durante la pandemia de coronavirus'
             style={{
               width: 750,
             }}
