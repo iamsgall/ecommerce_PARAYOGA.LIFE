@@ -125,9 +125,9 @@ export default function Footer() {
           <div className='col-sm-12 col-md-6'>
             <div className='d-flex justify-content-center'>
               <img
-                src='/images/pay.png'
+                src='https://res.cloudinary.com/ico4etech/image/upload/v1604022199/PARAYOGA.LIFE/Pay_Methods_jkcxuo.png'
                 className='img-fluid img-thumbnail'
-                alt=''
+                alt='Metodo de pago'
               />
             </div>
             <div className='d-flex justify-content-center'>

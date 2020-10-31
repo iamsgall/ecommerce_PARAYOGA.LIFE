@@ -5,7 +5,7 @@ import {
   faInstagram,
   faPinterest,
 } from '@fortawesome/free-brands-svg-icons';
-import {faImages} from '@fortawesome/free-solid-svg-icons';
+import {faImages, faLongArrowAltRight} from '@fortawesome/free-solid-svg-icons';
 
 export default library.add(
   faImages,
@@ -13,5 +13,6 @@ export default library.add(
   faTwitter,
   faTwitter,
   faInstagram,
-  faPinterest
+  faPinterest,
+  faLongArrowAltRight
 );

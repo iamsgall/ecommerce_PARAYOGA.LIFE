@@ -18,17 +18,22 @@ export default function Home() {
           lo sabes, no necesitas que te lo diga, pero{' '}
           <b>Eres especial, Créelo. </b>
           Tanto tu como yo queremos hacer algo grande en nuestras vidas. Pero
-          ... "siempre hay un pero", la realidad es que no sabemos muy bien por
-          donde comenzar, asumámoslo, perdemos el rumbo muy temprano, y más
-          importante aún, nuestra meta, aquella que vislumbramos una última vez
-          al cerrar nuestros ojos en la noche oscura. Olvidamos que lo más
-          valioso es <b>el aquí y el ahora</b>. Es acá donde entra el Yoga, y
-          toda la mística que hay a su alrededor. Magia o no, la realidad es que
-          puede ayudarnos a encontrar nuevamente el foco, y reconducir nuestra
-          vida a ese sueño que queremos alcanzar. <b>PARAYOGA.LIFE</b> es
-          exactamento eso. Buena vibra, buenos consejos, y una tienda llena de
-          artículos que pueden ayudarte a recuperar ese camino que una vez
-          empezaste y quedó atrás.
+          ... "siempre hay un maldito pero", la realidad es que no sabemos muy
+          bien por donde comenzar, asumámoslo, perdemos el rumbo muy temprano, y
+          más importante aún, nuestra meta, aquella que vislumbramos una última
+          vez antes de cerrar los ojos en la noche cuando dejamos nuestra mente
+          en blanco y quien sabe donde, por caminos que desconocemos. Y ...
+          sabes que olvidamos, que lo más valioso e importante es{' '}
+          <b>el aquí y el ahora</b>. ¿Estás de acuerdo conmigo?
+        </p>
+        <p className='text-left p-intro'>
+          Es acá donde entra el Yoga, y toda la mística que hay a su alrededor.
+          Magia o no, la realidad es que puede ayudarnos a encontrar nuevamente
+          el foco, y reconducir nuestra vida a ese sueño que queremos alcanzar.{' '}
+          <b>PARAYOGA.LIFE</b> es exactamento eso. Buena vibra, buenos consejos,
+          y una tienda llena de artículos que pueden ayudarte a recuperar ese
+          camino que una vez empezaste y quedó atrás, con la práctica continuada
+          del yoga. <b>Disfrútalo.</b>
         </p>
         <CardListProducts />
       </div>

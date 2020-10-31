@@ -22,11 +22,11 @@ export default function Navbar() {
         </button>
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <div className='navbar-nav ml-auto'>
-            {/* <Link href='/blog'>
+            <Link href='/blog'>
               <a className='nav-link' rel='dofollow'>
                 Blog <span className='sr-only'>(current)</span>
               </a>
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>

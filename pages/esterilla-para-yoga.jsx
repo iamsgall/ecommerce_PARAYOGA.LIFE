@@ -18,17 +18,17 @@ export default function EsterillaParaYoga() {
           seriamente comenzar a conectar el cuerpo, la respiración y la mente a
           través del yoga, bien sabes que tu salud esta primero, necesitas estar
           en un estado de calma y serenidad donde puedas meditar y pensar sobre
-          el futuro y el pasado, pero mas importante aun, que estoy haciendo con
+          tu futuro y tu pasado, pero más importante aún, que estoy haciendo con
           mi presente. ¿Estoy dando realmente lo mejor de mi?
           <b>
             <i> Claro que SI.</i>
           </b>
           <p className='p-intro'>
-            Pero ciertamente necesitarás algunos utensilios que te faciliten
-            hacer los ejercicios que el yoga propone. Principalmente necesitas
-            una esterilla o colchoneta, básica para cualquier posición y sin la
-            cual podría ser muy doloroso hacer las posiciones. Aquí te
-            ayudaremos a que puedas conseguir la mejor alfombrilla.
+            Ciertamente necesitarás algunos utensilios que te faciliten hacer
+            los ejercicios que el yoga propone. Principalmente necesitas una
+            esterilla o colchoneta, básica para cualquier posición y sin la cual
+            podría ser muy doloroso hacer las posiciones. Aquí te ayudaremos a
+            que puedas conseguir la mejor alfombrilla.
           </p>
         </p>
         <div className='row'>
