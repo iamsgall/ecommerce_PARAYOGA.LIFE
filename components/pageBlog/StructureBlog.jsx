@@ -16,23 +16,20 @@ export default function StructureBlog({
       <Link href={url}>
         <a rel='dofollow' className='card-blog'>
           <div
-            className='card mb-3'
+            className='card mb-3 shadow-sm'
             style={{
               maxWidth: 540,
             }}
           >
             <div className='row no-gutters'>
-              <div className='col-md-4'>
+              <div className='col-md-4 d-flex justify-content-center align-items-center'>
                 <Image
                   src={image}
                   alt={alt}
                   className='card-img img-fluid'
-                  width={400}
-                  height={400}
+                  width={300}
+                  height={300}
                   loading='lazy'
-                  style={{
-                    width: '100%',
-                  }}
                 />
               </div>
               <div className='col-md-8'>

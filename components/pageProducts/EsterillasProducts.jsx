@@ -1,5 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
 
 export default function EsterillasProducts({
   invisible,
@@ -47,13 +48,13 @@ export default function EsterillasProducts({
             </div>
           )}
           <a href={`${url}`} target='_blank' rel='nofollow'>
-            <img
+            <Image
               src={`${image}`}
               className='card-img-top pt-2 px-2 card-image-300h'
               alt={title}
+              width={300}
+              height={300}
               loading='lazy'
-              width='300'
-              height='400'
             />
           </a>
           <span

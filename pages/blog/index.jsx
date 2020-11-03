@@ -19,7 +19,7 @@ export default function Blog() {
           <Suspense>
             <StructureBlog
               url='/blog/musica-yoga'
-              image='https://res.cloudinary.com/ico4etech/image/upload/v1604332186/PARAYOGA.LIFE/young-woman-sitting-yoga-meditation-lotus-pose-listening-music-girl-character-relaxing-headphones-illustration-white-background_118421-591_vqc7p5.webp'
+              image='https://res.cloudinary.com/ico4etech/image/upload/v1604420369/PARAYOGA.LIFE/young-woman-sitting-yoga-meditation-lotus-pose-listening-music-girl-character-relaxing-headphones-illustration-white-background_118421-591_xgtliu.webp'
               alt='Mujer joven escuchando musica mientras hace yoga'
               title='Música Yoga'
               description='Cambia tu frecuentcia, súbele a la música, y deja la tristeza
