@@ -1,5 +1,8 @@
-import React from 'react';
-import Layout from '../../components/Layout.jsx';
+import dynamic from 'next/dynamic';
+const Layout = dynamic(() => import('../../components/Layout.jsx'), {
+  ssr: false,
+});
+import Image from 'next/image';
 
 export default function musicaYoga() {
   return (
@@ -33,12 +36,15 @@ export default function musicaYoga() {
           estado de paz alrededor suyo todo el día?
         </p>
         <div className='d-flex justify-content-center'>
-          <img
-            className='img-fluid img-thumbnail shadow-sm'
+          <Image
             src='https://res.cloudinary.com/ico4etech/image/upload/v1604159708/PARAYOGA.LIFE/SVGs/People_doing_leisure_activities_on_the_balconies_during_Coronavirus-pana_1_ps1ole.svg'
+            className='img-fluid img-thumbnail shadow-sm'
             alt='Personas haciendo actividades de ocio en los balcones durante la pandemia de coronavirus'
+            width={750}
+            height={500}
+            loading='lazy'
             style={{
-              width: 750,
+              width: '100%',
             }}
           />
         </div>
@@ -51,7 +57,7 @@ export default function musicaYoga() {
             Illustration by Freepik Stories
           </a>
         </div>
-        <section className='summary mb-5'>
+        <section className='summary mt-4 mb-5'>
           <p
             className='p-intro'
             style={{
@@ -62,16 +68,19 @@ export default function musicaYoga() {
           </p>
           <ul className='list-unstyled'>
             <li className='media my-3'>
-              <img
-                src='https://res.cloudinary.com/ico4etech/image/upload/v1604169297/PARAYOGA.LIFE/1_vw3jel.png'
+              <Image
+                src='https://res.cloudinary.com/ico4etech/image/upload/v1604333189/PARAYOGA.LIFE/1_f44tic.webp'
                 className='mr-3 img-fluid'
-                alt='Uno fondo azul, color blanco
-                '
+                alt='Uno fondo azul, color blanco'
+                width={35}
+                height={35}
+                loading='lazy'
                 style={{
-                  width: 34,
+                  width: '100%',
                 }}
               />
-              <div className='media-body '>
+
+              <div className='media-body ml-2'>
                 <ul
                   style={{
                     padding: 0,
@@ -111,15 +120,19 @@ export default function musicaYoga() {
               </div>
             </li>
             <li className='media my-3'>
-              <img
-                src='https://res.cloudinary.com/ico4etech/image/upload/v1604169297/PARAYOGA.LIFE/2_py7xsn.png'
+              <Image
+                src='https://res.cloudinary.com/ico4etech/image/upload/v1604333189/PARAYOGA.LIFE/2_c7wipl.webp'
                 className='mr-3 img-fluid'
                 alt='Dos fondo verde, color blanco'
+                width={35}
+                height={35}
+                loading='lazy'
                 style={{
-                  width: 34,
+                  width: '100%',
                 }}
               />
-              <div className='media-body'>
+
+              <div className='media-body ml-2'>
                 <ul
                   style={{
                     padding: 0,
@@ -198,12 +211,15 @@ export default function musicaYoga() {
             en las prácticas yoga desde muy temprana edad.
           </p>
           <div className='d-flex justify-content-center'>
-            <img
+            <Image
               className='img-fluid img-thumbnail shadow-sm'
               src='https://res.cloudinary.com/ico4etech/image/upload/v1604159708/PARAYOGA.LIFE/SVGs/Healthy_habit-pana_umew6m.svg'
               alt='Dos personas haciendo yoga en el bosque con sonidos de la naturaleza'
+              width={750}
+              height={500}
+              loading='lazy'
               style={{
-                width: 750,
+                width: '100%',
               }}
             />
           </div>
@@ -274,8 +290,8 @@ export default function musicaYoga() {
               <a rel='nofollow' href='https://www.spotify.com/us/'>
                 Spotify
               </a>{' '}
-              |{' '}
             </b>
+            |{' '}
             <a
               rel='nofollow'
               href='https://play.google.com/music/managemusic?u=0#'
@@ -292,13 +308,15 @@ export default function musicaYoga() {
             tu mejor aliada en ese caso.
           </p>
           <div className='d-flex justify-content-center'>
-            <img
+            <Image
               className='img-fluid img-thumbnail shadow-sm'
               src='https://res.cloudinary.com/ico4etech/image/upload/v1604159708/PARAYOGA.LIFE/SVGs/Search_engines-rafiki_fhfwau.svg'
               alt='Persona buscando informacion en Internet'
+              width={750}
+              height={500}
+              loading='lazy'
               style={{
-                width: 750,
-                height: 500,
+                width: '100%',
               }}
             />
           </div>
@@ -312,7 +330,7 @@ export default function musicaYoga() {
             </a>
           </div>
           <p className='p-intro'>
-            La siguiente lista está dividida en dos columnas, y son las palabras
+            La siguiente lista está dividida en dos filas, y son las palabras
             más comunes para encontrar la mejor música para yoga en{' '}
             <span id='english-music'>
               {' '}
@@ -413,6 +431,11 @@ export default function musicaYoga() {
           <b>Gracias por leer</b>
         </p>
       </article>
+      <style jsx>{`
+        a {
+          color: #000;
+        }
+      `}</style>
     </Layout>
   );
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Esterilla() {
   return (
@@ -6,10 +7,13 @@ export default function Esterilla() {
       <div className='card' style={{width: '18rem'}}>
         <Link href='/esterilla-para-yoga'>
           <a rel='dofollow'>
-            <img
-              src='https://res.cloudinary.com/ico4etech/image/upload/v1603928834/PARAYOGA.LIFE/Esterillas/esterilla1_z4qr5g.jpg'
+            <Image
+              src='https://res.cloudinary.com/ico4etech/image/upload/v1604267070/PARAYOGA.LIFE/Esterillas/esterilla1_xkagnz.png'
+              alt='Esterilla para yoga'
               className='card-img-top pt-2 px-2 card-image-300h'
-              alt='...'
+              width={300}
+              height={300}
+              loading='lazy'
             />
           </a>
         </Link>

@@ -1,6 +1,8 @@
+import dynamic from 'next/dynamic';
+const Navbar = dynamic(() => import('./Navbar.jsx'), {ssr: false});
+const Footer = dynamic(() => import('./Footer.jsx'), {ssr: false});
+
 import Head from 'next/head';
-import Footer from './Footer';
-import Navbar from './Navbar';
 import {useRouter} from 'next/router';
 import {useEffect} from 'react';
 import NProgress from 'nprogress';

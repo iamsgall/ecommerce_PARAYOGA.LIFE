@@ -51,6 +51,9 @@ export default function EsterillasProducts({
               src={`${image}`}
               className='card-img-top pt-2 px-2 card-image-300h'
               alt={title}
+              loading='lazy'
+              width='300'
+              height='400'
             />
           </a>
           <span

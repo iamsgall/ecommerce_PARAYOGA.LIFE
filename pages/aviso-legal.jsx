@@ -1,6 +1,6 @@
-import React from 'react';
-import Layout from '../components/Layout.jsx';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
+const Layout = dynamic(() => import('../components/Layout.jsx'));
 
 export default function avisoLegal() {
   return (

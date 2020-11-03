@@ -128,6 +128,9 @@ export default function Footer() {
                 src='https://res.cloudinary.com/ico4etech/image/upload/v1604022199/PARAYOGA.LIFE/Pay_Methods_jkcxuo.png'
                 className='img-fluid img-thumbnail'
                 alt='Metodo de pago'
+                loading='lazy'
+                width='330'
+                height='40'
               />
             </div>
             <div className='d-flex justify-content-center'>

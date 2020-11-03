@@ -1,7 +1,7 @@
-import React from 'react';
 import {format} from 'timeago.js';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function StructureBlog({
   url,
@@ -23,12 +23,15 @@ export default function StructureBlog({
           >
             <div className='row no-gutters'>
               <div className='col-md-4'>
-                <img
-                  className='card-img img-fluid'
-                  alt={alt}
+                <Image
                   src={image}
+                  alt={alt}
+                  className='card-img img-fluid'
+                  width={400}
+                  height={400}
+                  loading='lazy'
                   style={{
-                    height: '100%',
+                    width: '100%',
                   }}
                 />
               </div>

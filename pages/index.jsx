@@ -1,5 +1,10 @@
-import CardListProducts from '../components/CardListProducts.jsx';
-import Layout from '../components/Layout.jsx';
+import dynamic from 'next/dynamic';
+const Layout = dynamic(() => import('../components/Layout.jsx'), {ssr: false});
+const CardListProducts = dynamic(
+  () => import('../components/CardListProducts.jsx'),
+  {ssr: false}
+);
+import {Suspense} from 'react';
 
 export default function Home() {
   return (
@@ -35,7 +40,10 @@ export default function Home() {
           camino que una vez empezaste y quedó atrás, con la práctica continuada
           del yoga. <b>Disfrútalo.</b>
         </p>
-        <CardListProducts />
+        <Suspense fallback={<div>loading</div>}>
+          {' '}
+          <CardListProducts />
+        </Suspense>
       </div>
     </Layout>
   );

@@ -1,5 +1,5 @@
-import React from 'react';
-import Layout from '../components/Layout.jsx';
+import dynamic from 'next/dynamic';
+const Layout = dynamic(() => import('../components/Layout.jsx'));
 
 export default function politicaDePrivacidad() {
   return (
