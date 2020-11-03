@@ -8,7 +8,7 @@ export default function Esterilla() {
         <Link href='/esterilla-para-yoga'>
           <a rel='dofollow'>
             <Image
-              src='https://res.cloudinary.com/ico4etech/image/upload/v1604267070/PARAYOGA.LIFE/Esterillas/esterilla1_xkagnz.png'
+              src='https://res.cloudinary.com/ico4etech/image/upload/v1604330390/PARAYOGA.LIFE/Esterillas/esterilla1_fpzybo.webp'
               alt='Esterilla para yoga'
               className='card-img-top pt-2 px-2 card-image-300h'
               width={300}
