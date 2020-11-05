@@ -3,6 +3,9 @@ import dynamic from 'next/dynamic';
 const Esterilla = dynamic(() => import('./homeProduct/Esterilla'), {
   ssr: false,
 });
+const Bolsos = dynamic(() => import('./homeProduct/Bolsos'), {
+  ssr: false,
+});
 
 export default function CardListProducts() {
   return (
@@ -10,6 +13,7 @@ export default function CardListProducts() {
       <div className='row '>
         <Suspense>
           <Esterilla />
+          <Bolsos />
         </Suspense>
         {/* <Sticker />
         <Taburete />
