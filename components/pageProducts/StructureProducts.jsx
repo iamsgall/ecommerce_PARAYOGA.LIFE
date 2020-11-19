@@ -2,7 +2,7 @@ import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 
-export default function EsterillasProducts({
+export default function StructureProducts({
   invisible,
   image,
   title,

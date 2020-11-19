@@ -8,7 +8,7 @@ export default function musicaYoga() {
   return (
     <Layout
       title='¿Es la música yoga efectiva?'
-      description='Lo que leerás a continuación es mi experiencia personal, muy corta la verdad, pero que de seguro a más de uno podrá inspirar para hacer más divertidas sus sesiones de yoga, que para mi es el objetivo principal, sentirse bien y estar en un estado de paz alrededor nuestro.'
+      description='Lo que leerás a continuación es mi experiencia personal, muy corta la verdad, pero que de seguro a más de uno podrá inspirar para hacer más divertidas sus sesiones de yoga.'
     >
       <article className='container'>
         <h1 className='h1-title text-center mt-4 mb-3'>
@@ -17,12 +17,13 @@ export default function musicaYoga() {
         <p className='p-intro'>
           Alguna vez has sentido, un temor muy interno de no saber que quieres
           hacer con tu vida. Más de una vez me he despertado asustado por ideas
-          que no tienen ni sentido ni razón en mi vida, pero mi me mente juega
-          una mala pasada. ¿Alguna vez has estado en esa situación? Realmente
-          espero que no, porque no es para nada agradable. Lo que intento
-          comunicarte a continuación es un poco de mi experiencia, y como la
-          práctica del yoga y la música no hablada han creado una transformación
-          positiva en mi que aún sigo utilizando. <b>Disfrútala.</b>
+          que no tienen ni sentido ni razón en mi vida, pero a mi me mente le
+          gusta jugarme una mala pasada. ¿Alguna vez has estado en esa
+          situación? Realmente espero que no, porque no es para nada agradable.
+          Lo que intento comunicarte a continuación es un poco de mi
+          experiencia, y como la práctica del yoga y la música no hablada han
+          creado una transformación positiva en mi que aún sigo utilizando.{' '}
+          <b>Disfrútala.</b>
         </p>
 
         <p className='p-intro'>

@@ -20,7 +20,7 @@ export default function Esterilla() {
         <div className='card-body text-center'>
           <Link href='/esterilla-para-yoga'>
             <a className='card-title' rel='dofollow'>
-              Esterillas para yoga
+              Esterilla para yoga
             </a>
           </Link>
           <p className='card-text card-description'>

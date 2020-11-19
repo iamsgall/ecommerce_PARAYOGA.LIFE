@@ -1,8 +1,8 @@
 import {Suspense} from 'react';
 import dynamic from 'next/dynamic';
 const Layout = dynamic(() => import('../components/Layout.jsx'), {ssr: false});
-const EsterillasProducts = dynamic(
-  () => import('../components/pageProducts/EsterillasProducts.jsx'),
+const StructureProducts = dynamic(
+  () => import('../components/pageProducts/StructureProducts.jsx'),
   {ssr: false}
 );
 
@@ -14,7 +14,7 @@ export default function EsterillaParaYoga() {
     >
       <div className='container'>
         <header className='d-flex justify-content-center mt-4 mb-3'>
-          <h1 className='h1-title'>Esterillas para yoga</h1>
+          <h1 className='h1-title'>Esterilla para yoga</h1>
         </header>
         <p className='p-intro'>
           Me alegro mucho por ti, si estas leyendo esto es porque estás pensando
@@ -36,7 +36,7 @@ export default function EsterillaParaYoga() {
         </p>
         <div className='row'>
           <Suspense>
-            <EsterillasProducts
+            <StructureProducts
               invisible={true}
               image='https://res.cloudinary.com/ico4etech/image/upload/v1604330390/PARAYOGA.LIFE/Esterillas/esterilla1_fpzybo.webp'
               title='KG Physio Esterilla de Yoga Extra Grueso 12mm con Correa de Hombro'
@@ -44,7 +44,7 @@ export default function EsterillaParaYoga() {
               current_price='21.99'
               url='https://www.amazon.es/Esterilla-KG-Colchoneta-Gimnasio-colchoneta/dp/B01MRNZ2II/ref=sr_1_52?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SGTS04SZ783O&dchild=1&keywords=esterilla+yoga&qid=1603928055&sprefix=esterilas%2Caps%2C272&sr=8-52'
             />
-            <EsterillasProducts
+            <StructureProducts
               invisible={false}
               image='https://res.cloudinary.com/ico4etech/image/upload/v1604330390/PARAYOGA.LIFE/Esterillas/esterilla2_kw5zzd.webp'
               title='Colchoneta de Yoga de NBR de Alta Densidad y Extra Gruesa de 12mm Diseñada para Pilates'
@@ -52,7 +52,7 @@ export default function EsterillaParaYoga() {
               current_price='21.99'
               url='https://www.amazon.es/Reehut-Colchoneta-Densidad-Entrenamiento-Port%C3%A1til%EF%BC%88Rojo%EF%BC%89/dp/B06XHH13SX/ref=sr_1_20?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SGTS04SZ783O&dchild=1&keywords=esterilla+yoga&qid=1603928055&sprefix=esterilas%2Caps%2C272&sr=8-20'
             />
-            <EsterillasProducts
+            <StructureProducts
               invisible={false}
               image='https://res.cloudinary.com/ico4etech/image/upload/v1604330390/PARAYOGA.LIFE/Esterillas/esterilla3_p4lu6j.webp'
               title='TOPLUS Esterilla Yoga Antideslizante Alfombrilla de Yoga 183cm x 61cm'
@@ -60,7 +60,7 @@ export default function EsterillaParaYoga() {
               current_price='19.03'
               url='https://www.amazon.es/TOPLUS-Esterilla-Antideslizante-Profesional-Alfombrilla/dp/B07RL2N3YN/ref=sr_1_6?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SGTS04SZ783O&dchild=1&keywords=esterilla+yoga&qid=1603928055&sprefix=esterilas%2Caps%2C272&sr=8-6'
             />
-            <EsterillasProducts
+            <StructureProducts
               invisible={false}
               image='https://res.cloudinary.com/ico4etech/image/upload/v1604330390/PARAYOGA.LIFE/Esterillas/esterilla4_dzct0k.webp'
               title='Dustgo Esterilla Antideslizante con Material ecológico TPE con líneas corporales'
@@ -68,7 +68,7 @@ export default function EsterillaParaYoga() {
               current_price='26.39'
               url='https://www.amazon.es/Dustgo-Colchoneta-Antideslizante-corporales-Entrenamiento/dp/B07Y2YVGZS/ref=sr_1_30?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SGTS04SZ783O&dchild=1&keywords=esterilla+yoga&qid=1603928055&sprefix=esterilas%2Caps%2C272&sr=8-30'
             />
-            <EsterillasProducts
+            <StructureProducts
               invisible={false}
               image='https://res.cloudinary.com/ico4etech/image/upload/v1604330390/PARAYOGA.LIFE/Esterillas/esterilla5_bv0f79.webp'
               title='Homtiky Esterilla Yoga, Yoga Mat para Entrenamiento físico con Correa y Bolsa'
@@ -76,7 +76,7 @@ export default function EsterillaParaYoga() {
               current_price='34.99'
               url='https://www.amazon.es/Homtiky-Esterilla-Antideslizante-Entrenamiento-Transporte/dp/B0868S5K7D/ref=sr_1_1_sspa?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SGTS04SZ783O&dchild=1&keywords=esterilla+yoga&qid=1603928055&sprefix=esterilas%2Caps%2C272&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExQTdFUE5YV0xPOEFYJmVuY3J5cHRlZElkPUEwMTQxMTA3MkVNQ1RXMjdRWlhJWSZlbmNyeXB0ZWRBZElkPUEwOTg4MzMxM00xQlI4RlVJQTVFUCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU='
             />
-            <EsterillasProducts
+            <StructureProducts
               invisible={false}
               image='https://res.cloudinary.com/ico4etech/image/upload/v1604330390/PARAYOGA.LIFE/Esterillas/esterilla6_rsn4xs.webp'
               title='UMI Colchón para Yoga NBR Colchoneta Antideslizante Ideal para Pilates'

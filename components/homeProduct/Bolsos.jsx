@@ -20,7 +20,7 @@ export default function Bolsos() {
         <div className='card-body text-center'>
           <Link href='/bolso-para-yoga'>
             <a className='card-title' rel='dofollow'>
-              Bolsos para yoga
+              Bolso para yoga
             </a>
           </Link>
           <p className='card-text card-description'>
